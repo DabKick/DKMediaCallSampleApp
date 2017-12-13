@@ -1,0 +1,61 @@
+{
+  "name": "DabKickLiveSessionSdk",
+  "version": "0.0.62",
+  "summary": "SDK to integrate DabKick live sessions into your own app",
+  "description": "DabKick SDK to integrate DabKick live sessions into your own app.  This SDK provides the framework for starting a picture-focused live session.",
+  "homepage": "http://dabkick.com",
+  "license": {
+    "type": "Apache",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Sing-Ho Lui": "singho@dabkick.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/DabKick-iOS/DabKickLiveSessionSdk.git",
+    "tag": "0.0.62"
+  },
+  "source_files": [
+    "DabKickLiveSessionSdk/",
+    "DabKickLiveSessionSdk/**/*.{h,m}",
+    "DabKickLiveSessionSdk/*.{h,m}"
+  ],
+  "resources": [
+    "DabKickLiveSessionSdk/Firebase/Resources/*",
+    "DabKickLiveSessionSdk/Resources/**/*"
+  ],
+  "frameworks": "Foundation",
+  "requires_arc": true,
+  "xcconfig": {
+    "OTHER_LDFLAGS": "$(inherited) -ObjC -l\"c++\" -l\"icucore\" -l\"z\" -framework \"CFNetwork\" -framework \"CoreGraphics\" -framework \"Foundation\" -framework \"MobileCoreServices\" -framework \"Security\" -framework \"StoreKit\" -framework \"SystemConfiguration\" $(OTHER_LDFLAGS)"
+  },
+  "dependencies": {
+    "DabKickQueryApiService": [
+
+    ],
+    "Firebase": [
+
+    ],
+    "Firebase/Database": [
+
+    ],
+    "Firebase/Auth": [
+
+    ],
+    "SDWebImage": [
+      "~> 4.0"
+    ],
+    "couchbase-lite-ios": [
+      "~> 1.4.0"
+    ],
+    "Obfuscator": [
+      "~> 2.0"
+    ],
+    "TwilioVideo": [
+      "1.3.5"
+    ]
+  }
+}

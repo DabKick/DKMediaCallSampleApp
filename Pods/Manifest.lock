@@ -1,0 +1,16 @@
+PODS:
+  - DabKickLiveSessionSdk (0.0.62)
+
+DEPENDENCIES:
+  - DabKickLiveSessionSdk (from `/Users/dabkick/DabKick_Development/iOS_LiveSessionSDK/DabKickLiveSessionSdk/`)
+
+EXTERNAL SOURCES:
+  DabKickLiveSessionSdk:
+    :path: /Users/dabkick/DabKick_Development/iOS_LiveSessionSDK/DabKickLiveSessionSdk/
+
+SPEC CHECKSUMS:
+  DabKickLiveSessionSdk: 58a98c2d7865d1559896d387f46e20042f0df9d9
+
+PODFILE CHECKSUM: 3e1ecbfecb3a024b3e37c31ea7c927fad797af02
+
+COCOAPODS: 1.2.0
