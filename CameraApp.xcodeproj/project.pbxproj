@@ -85,6 +85,19 @@
 		82FC9686628B64024852582A /* libPods-CameraApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD3DC12AE381BD03179F02D4 /* libPods-CameraApp.a */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		044C0B501FE432A2008E7AF9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		713AFB94174620FA00692EE0 /* assetsBgd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = assetsBgd.png; sourceTree = "<group>"; };
 		713AFB95174620FA00692EE0 /* assetsBgd@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "assetsBgd@2x.png"; sourceTree = "<group>"; };
@@ -470,6 +483,7 @@
 				718FAD4C174548D200253225 /* Resources */,
 				66109D530E8A9862823A643E /* [CP] Embed Pods Frameworks */,
 				5C92CD49C348D7E7388EF2D5 /* [CP] Copy Pods Resources */,
+				044C0B501FE432A2008E7AF9 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -585,9 +599,106 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CameraApp/Pods-CameraApp-resources.sh",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/add_user_male.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/add_user_male@2x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/add_user_male@3x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/camera.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/camera@2x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/camera@3x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/CamSwitch.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/CamSwitch@2x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/CamSwitch@3x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/CamSwitch@4x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/DabKickTypedLogo@2x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/DabKickTypedLogo@3x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/defaultProfilePic@3x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Down Karat.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Down Karat@2x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Down Karat@3x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Down Karat@4x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Emojis/Reactions_Agitated.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Emojis/Reactions_Agitated@2x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Emojis/Reactions_Agitated@3x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Emojis/Reactions_Dude.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Emojis/Reactions_Dude@2x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Emojis/Reactions_Dude@3x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Emojis/Reactions_Generic.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Emojis/Reactions_Generic@2x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Emojis/Reactions_Generic@3x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Emojis/Reactions_Headphones.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Emojis/Reactions_Headphones@2x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Emojis/Reactions_Headphones@3x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Emojis/Reactions_Love.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Emojis/Reactions_Love@2x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Emojis/Reactions_Love@3x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Emojis/Reactions_Monster.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Emojis/Reactions_Monster@2x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Emojis/Reactions_Monster@3x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Emojis/Reactions_Sad.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Emojis/Reactions_Sad@2x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Emojis/Reactions_Sad@3x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Emojis/Reactions_Shocked.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Emojis/Reactions_Shocked@2x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Emojis/Reactions_Shocked@3x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Emojis/Reactions_StarryEyes.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Emojis/Reactions_StarryEyes@2x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Emojis/Reactions_StarryEyes@3x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Emojis/Reactions_Tongue.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Emojis/Reactions_Tongue@2x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Emojis/Reactions_Tongue@3x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Emojis/Reactions_Wink.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Emojis/Reactions_Wink@2x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Emojis/Reactions_Wink@3x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Exit.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Exit@2x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Exit@3x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Exit@4x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Go Live.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Go Live@2x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Go Live@3x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Go Live@4x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Hide Chat.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Hide Chat@2x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Hide Chat@3x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Hide Chat@4x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Live Stream Off.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Live Stream Off@2x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Live Stream Off@3x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Live Stream Off@4x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Microphone.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Microphone@2x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Microphone@3x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Microphone@4x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Mute.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Mute@2x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Mute@3x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Mute@4x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/people.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/people@2x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/people@3x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/picture.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/picture@2x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/picture@3x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/PlaceHolder Circle 2x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Placeholder Circle 3x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Placeholder Circle 4x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/PlaceHolder Circle.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/PlaceHolder.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/PlaceHolder@2x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/PlaceHolder@3x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/PlaceHolder@4x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Show Chat.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Show Chat@2x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Show Chat@3x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Show Chat@4x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Video_Camera_White@2x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Video_Camera_White@3x.png",
+				"${PODS_ROOT}/../../DabKickLiveSessionSdk/DabKickLiveSessionSdk/Resources/Emojis",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -600,9 +711,14 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CameraApp/Pods-CameraApp-frameworks.sh",
+				"${PODS_ROOT}/DabKickLiveSessionSdk/DabKickLiveSessionSdk.framework",
+				"${PODS_ROOT}/TwilioVideo/TwilioVideo.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DabKickLiveSessionSdk.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwilioVideo.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -615,13 +731,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CameraApp-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -729,10 +848,15 @@
 			baseConfigurationReference = 9778E12F69F5F3026838D147 /* Pods-CameraApp.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 9VKFES22DE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/**",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CameraApp/CameraApp-Prefix.pch";
 				INFOPLIST_FILE = "CameraApp/CameraApp-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -743,10 +867,15 @@
 			baseConfigurationReference = E7F5239D34A118F97607FBBE /* Pods-CameraApp.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 9VKFES22DE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/**",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CameraApp/CameraApp-Prefix.pch";
 				INFOPLIST_FILE = "CameraApp/CameraApp-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
